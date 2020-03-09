@@ -11,7 +11,7 @@ class Movie extends Model
     protected $fillable=['vie_name','eng_name','cate_id','nation_id','language_id',
     'year_id','poster_image','information','trailer','director','actor','quality','point','time'];
     public $timestamps=false;
-    //Xin chào mọi người
+    //Xin chào mọi người nha hihi
     public function cate()
     {
         return $this->belongsToMany('App\Cate');
